@@ -15,6 +15,11 @@
   overflow: hidden;
 } */
 
+@media screen and (max-width: 998px) {
+  .main-cursor, .secondary-cursor {
+    display: none;
+  }
+} 
 
 .main-cursor, .secondary-cursor {
   z-index: 10000;
