@@ -90,9 +90,10 @@ export default function Home() {
                                         &nbsp;&nbsp;agency.
                                     </span>
                                 </span>
-                                <span className="-mb-1.5 -mt-6 inline-block overflow-hidden align-bottom">
+                                <br></br>
+                                <span className="-mb-1.5 mt-6 inline-block overflow-hidden align-bottom">
                                     <span className="font-medium inline-block  translate-y-full pb-1.5 pt-6 will-change-transform">
-                                       for &nbsp;
+                                    &nbsp; for 
                                     </span>
                                 </span>
 
