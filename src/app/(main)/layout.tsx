@@ -14,8 +14,8 @@ export default function RootLayout({
 
     return (
 
-        <div className='flex flex-row'>
-            <main className='left-1/5 mx-10 mt-20'>
+        <div className=''>
+            <main className=''>
                 {children}
             </main>
         </div>
