@@ -135,8 +135,8 @@ export default function Home() {
                     </div>
 
                     <div className='uppercase font-medium text-zinc-600  lg:text-lg xs:text-lg  font-montserrat-alternates'>
-                    All Inquires to: <br />
-                    hello@aromadesign.com
+                    All Enquiries to: <br />
+                    hello@aromadesign.ie
                 </div>
                 </div>
 
