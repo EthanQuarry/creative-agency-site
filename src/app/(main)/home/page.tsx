@@ -120,10 +120,10 @@ export default function Home() {
                         >
                             <div className="group flex h-full cursor-pointer items-center whitespace-nowrap">
                                 <span className=" group-hover:pause animate-loopL">
-                                   Click the arrow&nbsp; Click the arrow &nbsp;
+                                   Welcome&nbsp; Welcome &nbsp;
                                 </span>
                                 <span className=" group-hover:pause animate-loopL">
-                                Click the arrow&nbsp; Click the arrow&nbsp; 
+                                Welcome&nbsp; Welcome&nbsp; 
                                 </span>
                             </div>
                         </div>
