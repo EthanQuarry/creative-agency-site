@@ -9,8 +9,9 @@ import CustomCursor from './components/CustomCursor/CustomCursor'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Aroma Design',
+  title: 'AromaDesign',
   description: 'Aroma design is the solution for creating a unique presence on the web. We are the No.1 creative design agency in Ireland. Providing handmade solutions comparable to none.',
+  keywords: ['Web Design Cork', 'web designer cork', 'website design agency cork', 'website design', 'creative design', 'creative web design' ]
 }
 
 export default function RootLayout({

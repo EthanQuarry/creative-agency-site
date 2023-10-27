@@ -1,16 +1,13 @@
 "use client"
 
-
-import rectangles from '../../../../public/3-rectangles.png'
-import arrow from '../../../../public/arrow.png'
-import Image from 'next/image'
 import { useEffect, useState } from 'react';
 import gsap from 'gsap';
 import { CustomEase } from "gsap/CustomEase";
-import SlideButtonArrow from '@/app/components/SlideButtonArrow';
 import Preloader from '@/app/components/Preloader';
 import { AnimatePresence } from 'framer-motion';
-import Link from 'next/link';
+
+
+
 
 
 gsap.registerPlugin(CustomEase);
@@ -56,7 +53,7 @@ export default function Home() {
     return (
 
        
-        <div className="w-full h-screen relative bg-[#eeebe6]">
+        <main className="w-full h-screen relative bg-[#eeebe6]">
              <AnimatePresence mode="wait">
              {isLoading && <Preloader />}
              </AnimatePresence>
@@ -136,17 +133,17 @@ export default function Home() {
                     </div>
 */}
 
-                    <div className='uppercase font-medium text-zinc-600  lg:text-lg xs:text-lg  font-montserrat-alternates'>
+                    <footer className='uppercase font-medium text-zinc-600  lg:text-lg xs:text-lg  font-montserrat-alternates'>
                     All Enquiries to: <br />
                     hello@aromadesign.ie
-                </div>
+                </footer>
                 </div>
 
           
             </div>
 
 
-        </div>
+        </main>
 
 
     )
